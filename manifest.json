@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Picture-in-Picture",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["src/page.js"]
+  }],
+  "icons": {
+    "16": "src/images/96.png",
+    "32": "src/images/96.png",
+    "48": "src/images/96.png",
+    "96": "src/images/96.png",
+    "128": "src/images/96.png"
+  },
+  "browser_action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "src/images/96.png",
+    "default_title": "Picture in Picture Video"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
