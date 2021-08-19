@@ -6,6 +6,8 @@ Install the extension and enjoy!
 
 <img width="297" alt="Screen Shot 2019-12-04 at 11 44 56" src="https://user-images.githubusercontent.com/77889/70152192-87a19400-168b-11ea-834f-811009e8a264.png">
 
+Use chrome extensions load to install this package
+
 # Contributing
 
 Once you've made your great commits (include tests, please):
